@@ -20,6 +20,8 @@ Folder Structure
     │   ├── polyMorph.py
     │   ├── self_proj.py
     │   └── self.py
+    ├── app.py
+    ├── requirements.txt 
     └── .gitignore
     
 
@@ -29,6 +31,19 @@ What each file covers
 > Note: descriptions below are based on the current contents of each script. Update them as the files evolve.
 
 File
+
+`app.py`
+
+Streamlit Web App
+
+An interactive Streamlit app that lets you pick an OOP topic from a sidebar and view its explanation alongside a runnable code example (`st.subheader`, `st.text`, `st.code`, etc.). Built as an easy, browser-based way for beginners to explore these concepts without running scripts locally.
+
+`requirements.txt`
+
+Dependencies
+
+Lists the Python packages needed to run `app.py` (currently just `streamlit`)
+
 
 Topic
 
@@ -119,6 +134,37 @@ Each script can be run independently:
 
     python topics/abs.py
     
+
+Some scripts (like `const_p.py` and `self_proj.py`) are interactive and will prompt for input in the terminal.
+
+Streamlit Web App
+-----------------
+
+To make these OOP concepts easier to explore — especially for friends who are just starting out with Python — this repo includes a small **Streamlit web app** (`app.py`). It's deployed on Streamlit Community Cloud, so anyone can open it in a browser and learn without installing anything.
+
+**🔗 Live app:** _add your deployed Streamlit Cloud link here_
+
+The app lets you:
+
+*   Pick an OOP topic (Abstraction, Encapsulation, Inheritance, Polymorphism, Constructors, Class/Static Methods, Magic Methods, Decorators) from a sidebar
+*   Read a short, beginner-friendly explanation of the topic
+*   View a runnable code example for that topic (`st.code`)
+
+### Run it locally
+
+bash
+
+    pip install -r requirements.txt
+    streamlit run app.py
+
+How to Run the Practice Scripts
+-------------------------------
+
+Each topic script can also be run independently from the command line:
+
+bash
+
+    python topics/abs.py
 
 Some scripts (like `const_p.py` and `self_proj.py`) are interactive and will prompt for input in the terminal.
 
