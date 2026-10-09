@@ -8,7 +8,7 @@ Folder Structure
 
     OOP/
     ├── code/            # (supporting / earlier code experiments)
-    ├── topics/          # main practice scripts, one concept per file
+    ├── Titles/          # main practice scripts, one concept per file
     │   ├── abs.py
     │   ├── abstract.py
     │   ├── const.py
@@ -132,7 +132,7 @@ How to Run
 
 Each script can be run independently:
 
-    python topics/abs.py
+    python Titles/abs.py
     
 
 Some scripts (like `const_p.py` and `self_proj.py`) are interactive and will prompt for input in the terminal.
@@ -166,7 +166,7 @@ Each topic script can also be run independently from the command line:
 
 
 
-    python topics/abs.py
+    python Titles/abs.py
 
 Some scripts (like `const_p.py` and `self_proj.py`) are interactive and will prompt for input in the terminal.
 
