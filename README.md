@@ -144,7 +144,7 @@ To make these OOP concepts easier to explore — especially for friends who are 
 
 **🔗 Live app:** 
 
-[URL](https://object-oriented.streamlit.app)
+[object-oriented.streamlit.app](https://object-oriented.streamlit.app)
 
 The app lets you:
 
