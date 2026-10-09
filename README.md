@@ -143,7 +143,8 @@ Streamlit Web App
 To make these OOP concepts easier to explore — especially for friends who are just starting out with Python — this repo includes a small **Streamlit web app** (`app.py`). It's deployed on Streamlit Community Cloud, so anyone can open it in a browser and learn without installing anything.
 
 **🔗 Live app:** 
-`https://object-oriented.streamlit.app/`
+
+[URL](https://object-oriented.streamlit.app)
 
 The app lets you:
 
