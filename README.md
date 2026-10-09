@@ -154,7 +154,7 @@ The app lets you:
 
 ### Run it locally
 
-bash
+
 
     pip install -r requirements.txt
     streamlit run app.py
@@ -164,7 +164,7 @@ How to Run the Practice Scripts
 
 Each topic script can also be run independently from the command line:
 
-bash
+
 
     python topics/abs.py
 
