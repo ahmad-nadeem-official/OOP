@@ -1,5 +1,12 @@
 import streamlit as st
 
+
+st.set_page_config(
+    page_title="Python OOP Concepts",
+    page_icon=":snake:",
+    layout="centered",
+)
+
 # ---------------------------------------------------
 # Basic beginner-level Streamlit app to explain
 # Python OOP topics along with example code
